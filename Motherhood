@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>The Foundation You’re Building</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #f6f1ea;
+        color: #2f2f2f;
+        font-family: 'Inter', sans-serif;
+        line-height: 1.8;
+    }
+
+    .container {
+        max-width: 760px;
+        margin: 60px auto;
+        background: #fffdf9;
+        padding: 60px 50px;
+        box-shadow: 0 8px 30px rgba(0,0,0,0.05);
+        border-radius: 12px;
+    }
+
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 38px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 10px;
+        letter-spacing: 0.4px;
+    }
+
+    .divider {
+        width: 60px;
+        height: 1px;
+        background: #c8beb2;
+        margin: 20px auto 45px auto;
+    }
+
+    p {
+        font-size: 17px;
+        margin-bottom: 24px;
+    }
+
+    .photo {
+        margin: 50px 0;
+    }
+
+    .photo img {
+        width: 100%;
+        display: block;
+        border-radius: 12px;
+        box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    }
+
+    .emphasis {
+        font-style: italic;
+    }
+
+    .closing {
+        text-align: center;
+        margin-top: 60px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    @media (max-width: 768px) {
+
+        .container {
+            margin: 20px;
+            padding: 32px 22px;
+        }
+
+        h1 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        .photo {
+            margin: 35px 0;
+        }
+    }
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>The Foundation You’re Building</h1>
+    <div class="divider"></div>
+
+    <p>
+        I don’t think you fully realize how much goodness you have given Shiloh during one of the hardest seasons of our lives.
+    </p>
+
+    <p>
+        I have watched you carry exhaustion, grief, loneliness, stress, uncertainty, and so much emotional weight, and yet somehow you have fought to make sure those things did not become the atmosphere around her.
+    </p>
+
+    <!-- PHOTO 1 -->
+    <div class="photo">
+        <img src="photo1.jpg" alt="Grace and Shiloh together">
+    </div>
+
+    <p>
+        Instead, you filled our home with warmth. With dinners together. With songs and silly moments. With laughter and closeness. With safety, consistency, and connection.
+    </p>
+
+    <p>
+        I watch the way you get close to her face just to make her smile. The way you sing to her. The way you spend real time with her every single day. And I keep thinking that these are the kinds of moments that become the foundation of a beautiful childhood.
+    </p>
+
+    <!-- PHOTO 2 -->
+    <div class="photo">
+        <img src="photo2.jpg" alt="A quiet everyday moment">
+    </div>
+
+    <p>
+        I know this season has not been easy. I know how much you have carried.
+    </p>
+
+    <p>
+        But I hope someday you are able to see yourself the way I see you:
+    </p>
+
+    <!-- PHOTO 3 -->
+    <div class="photo">
+        <img src="photo3.jpg" alt="Grace with Shiloh">
+    </div>
+
+    <p class="emphasis">
+        as a mother who fought hard to build something beautiful for her daughter even in the middle of difficulty.
+    </p>
+
+    <div class="closing">
+        I am so proud of you.
+    </div>
+
+</div>
+
+</body>
+</html>
